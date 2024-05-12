@@ -3,7 +3,6 @@ import assemblyai as aai
 
 app = Flask(__name__)
 
-# Replace with your AssemblyAI API key
 aai.settings.api_key = "22f832229ec14cde9eb71fe251062a63"
 
 @app.route('/')
